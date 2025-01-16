@@ -1,0 +1,21 @@
+.navbarr {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-image: url("../multimedia/fondonavbar.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.navbar-botones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-logo {
+  height: 80px;
+  padding: 10px;
+}
