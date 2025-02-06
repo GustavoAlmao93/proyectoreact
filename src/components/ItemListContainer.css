@@ -10,7 +10,7 @@
   flex-wrap: wrap;
   gap: 5px;
   justify-content: center;
-  width: 100%; /* Ocupa todo el ancho disponible */
-  max-width: 100%; /* Opcional: limita el ancho máximo */
+  width: 100%;
+  max-width: 100%;
   margin: 0 auto;
 }
