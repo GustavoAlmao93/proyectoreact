@@ -1,0 +1,25 @@
+.navbarr {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-image: url("../multimedia/fondonavbar.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  background-color: #242424;
+}
+
+.navbar-botones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-logo {
+  height: 120px;
+}
+
+.carrito-logo {
+  display: flex;
+}

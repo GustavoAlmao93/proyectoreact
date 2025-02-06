@@ -1,0 +1,13 @@
+.detallesproducto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.imagendetail {
+  height: 300px;
+  width: 400px;
+}

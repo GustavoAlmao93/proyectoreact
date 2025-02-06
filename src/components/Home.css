@@ -1,0 +1,11 @@
+.item-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulosl {
+  display: flex;
+  justify-content: center;
+}

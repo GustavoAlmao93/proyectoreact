@@ -1,14 +1,26 @@
 import './App.css';
-import NavBar from './assets/components/NavBar';
-import ItemListContainer from './assets/components/ItemListContainer';
+import NavBar from './components/NavBar';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import Home from './components/Home';
+import Office from './components/Office';
+import Gaming from './components/Gaming';
+import ProductDetail from './components/ProductDetail';
 
 function App() {
-  const bienvenidos = "Bienvenidos a mi e-commerce InforGA";
-
+  
   return (
+
   <>
+  <BrowserRouter>
  <NavBar/>
- <ItemListContainer bienvenida={bienvenidos}/>
+ <Routes>
+ <Route exact path='/' element={<Home />} />
+ <Route exact path='/category/:catId' element={<Home />} />
+  <Route exact path='/category/:catId' element={<Office />} />
+  <Route exact path='/category/:catId' element={<Gaming />} />
+  <Route exact path="/product/:id" element={<ProductDetail />} />
+ </Routes>
+ </BrowserRouter>
   </>
   );
 }

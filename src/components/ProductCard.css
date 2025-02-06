@@ -1,0 +1,19 @@
+.article1 {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
+  height: 350px;
+  width: 300px;
+  display: "flex";
+  justify-content: center;
+  text-align: center;
+}
+
+.botonproductcard {
+  background-color: "#2424";
+  border: "none";
+  padding: "10px 20px";
+  color: "black";
+  cursor: "pointer";
+}

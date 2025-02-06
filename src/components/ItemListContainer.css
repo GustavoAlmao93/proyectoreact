@@ -1,0 +1,16 @@
+.item-list {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid rgb(248, 248, 248);
+  border-radius: 50px;
+}
+
+.articulos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  width: 100%; /* Ocupa todo el ancho disponible */
+  max-width: 100%; /* Opcional: limita el ancho máximo */
+  margin: 0 auto;
+}
