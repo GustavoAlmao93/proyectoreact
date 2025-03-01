@@ -16,7 +16,7 @@ export default function NavBar(){
       <div className="navbar-botones">
 
         <button>
-          <Link to="/category/home">Home</Link>
+          <Link to="/category/home">Economic</Link>
         </button>
         <button>
           <Link to="/category/office">Office</Link>

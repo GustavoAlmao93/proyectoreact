@@ -1,9 +1,7 @@
-
 import { useState, useEffect } from 'react';
-import { getCategory, getProducts } from '../../asyncMock';
+import { getProducts, getProductsByCategory } from '../../firebase';
 import ProductCard from './ProductCard';
 import { useParams } from 'react-router-dom';
-
 
 
 export default function Office() {
@@ -14,19 +12,18 @@ export default function Office() {
     if (!catId) {
       getProducts().then((response) => setProducts(response));
     } else {
-      getCategory(catId).then((response) => setProducts(response));
+      getProductsByCategory(catId).then((response) => setProducts(response));
     }
   }, [catId]);
 
-    return (
-      <>
+  return (
+    <>
       <h1 className='titulosl'>Vista de producto {catId}</h1>
       <main className="item-list">
-         
         {products?.map((product) => (
           <ProductCard key={product.id} product={product} />
         ))}
       </main>
-      </>
-    );
-  }
+    </>
+  );
+}

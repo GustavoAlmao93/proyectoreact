@@ -1,0 +1,26 @@
+.totalcompra {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.totaldeuda {
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.cart-empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

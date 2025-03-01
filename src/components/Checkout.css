@@ -1,0 +1,32 @@
+.checkout-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+  font-size: 20px;
+}
+
+.inputslocos {
+  color: rgb(19, 39, 219);
+  width: 30%;
+  margin: 5px;
+  height: 50px;
+  text-align: center;
+  background-color: rgb(221, 218, 218);
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.order-confirmation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+p {
+  color: black;
+  font-size: 20px;
+}
