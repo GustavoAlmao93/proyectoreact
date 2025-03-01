@@ -9,7 +9,7 @@ export default function NavBar(){
             
             <button className="navbar-logo">
             <Link to="/">
-        <img src="../src\assets\multimedia/logo.png" alt="Logo" className='img-logo' />
+        <img src="../public/multimedia/logo.png" alt="Logo" className='img-logo' />
         </Link>
       </button>
            
