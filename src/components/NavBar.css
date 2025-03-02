@@ -23,9 +23,9 @@
 
 
 @media (max-width: 768px) {
-:root{
-  color: white;
-}
+  :root{
+    color: rgb(52, 0, 240);
+  }
 
   .navbarr {
     flex-direction: column;
@@ -59,7 +59,7 @@
 @media (max-width: 480px) {
 
   :root{
-    color: white;
+    color: rgb(52, 0, 240);
   }
   
   .navbarr {
