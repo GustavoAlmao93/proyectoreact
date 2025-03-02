@@ -9,7 +9,6 @@ export default function NavBar(){
             
             <button className="navbar-logo">
             <Link to="/">
-          
         <img src="/multimedia/logo.png" alt="Logo" className='img-logo' />
         </Link>
       </button>
