@@ -52,7 +52,7 @@ button:hover {
 
 @media (max-width: 768px) {
 
-  :root{
+body{
     color: rgb(52, 0, 240);
     display: flex;
     justify-content: center;
