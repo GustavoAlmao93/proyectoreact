@@ -2,10 +2,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-image: url("../multimedia/fondonavbar.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  
   border-radius: 20px;
   background-color: #242424;
 }
